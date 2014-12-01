@@ -18,6 +18,7 @@ A JS library for building single page web apps... Or a sane way to keep your Jav
  - Explore the routes, explain the #route vs /route
  - Trigger some routes on the command line
 
+
 ## Example 2: Drupal Blocks, template.php, and Templates, meet Backbone Views and Underscore templates
 - Example 2a: Lets make what is in the Routes into reusable components, Backbone Views
  - Move the Route body assignment into the render function that assigns to View.el, 
@@ -29,17 +30,18 @@ A JS library for building single page web apps... Or a sane way to keep your Jav
  - print it in two Routes
 
 
-## CCK, meet Backbone Forms for Backbone Models
-@todo Example 3: Declare a Model's schema, create associated edit and view pages.
+## @todo Example 3: CCK, meet Backbone Forms for Backbone Models
+- Declare a Model's schema, create associated edit and view pages.
 
 
-## Views module, meet Backbone Collections
-@todo Example 4: Create a Backbone Collection and its associated View page.
+## @todo Example 4: Views module, meet Backbone Collections
+- Create a Backbone Collection and its associated View page.
 
 
-## Review, lets introduce some more regions
-@todo Example 5: ...
+## @todo Example 5: Review, lets introduce some more regions
+- ...
 
-## Connect the Models to Drupal
-@todo Example 6: Use the Services module? `hook_menu` entries work well. 
+
+## @todo Example 6: Connect the Models to Drupal
+Use the Services module? `hook_menu` entries work well. 
 
