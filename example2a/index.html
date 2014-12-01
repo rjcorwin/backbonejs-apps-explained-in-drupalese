@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Backbone Example</title>
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" />
+  <link href="vendor/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen" />
+  <link rel="stylesheet" href="app/app.css"/>
+
+  <!--
+    DEPENDENCIES
+  -->
+
+  <script src="vendor/jquery-1.7.2.js"></script>
+  <script src="vendor/underscore-1.4.4.js"></script>
+  <script src="vendor/backbone-1.0.0.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.js"></script>
+
+  <!--
+    App
+  -->
+
+  <script src="app/App.js"></script>
+  <script src="app/Router.js"></script>
+
+  <script src="app/views/HelloWorldOne.js"></script>
+  <script src="app/views/HelloWorldTwo.js"></script>
+
+</head>
+
+<body>
+
+  <ul class="nav nav-tabs">
+    <li role="presentation"><a href="#hello-world-1">Hello World 1</a></li>
+    <li role="presentation"><a href="#hello-world-2">Hello World 2</a></li>
+  </ul>
+
+  <div id="region-body" class="container">
+
+  </div>
+
+</body>
+
+  <!-- 
+    START THE APP
+  -->
+
+  <script>
+    $(document).ready(function() {
+      App.start()
+    })
+  </script>
+
+</html>
