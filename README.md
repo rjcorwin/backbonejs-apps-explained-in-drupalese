@@ -1,4 +1,4 @@
-# Backbone.js Apps Explained in Drupalese.md
+# Backbone.js Apps Explained in Drupalese
 
 ## What is Backbone.js?
 A JS library for building single page web apps... Or a sane way to keep your Javascript code from turning into spaghetti. Included in Drupal 8 but I'm not sure what for other than the fact D8 is supposed to be Services oriented and Backbone is a great choice for building apps on top of a "headless Drupal". The [Tonight Show website](http://www.nbc.com/the-tonight-show) is a cool example.  
@@ -9,7 +9,6 @@ A JS library for building single page web apps... Or a sane way to keep your Jav
 - [From Lullabot: Copelandia is a proof of concept for a COPE oriented Drupal site, to decouple the Drupal Backend from the Frontend.](https://github.com/Lullabot/copelandia)
 - [Recline.js: Backbone.js based framework for Apache Solr UI](http://okfnlabs.org/blog/2012/11/01/recline-js-search-demo.html), [Solarita.js is another example](https://github.com/jbarroso/solritajs)
 
-@todo put a menu in the body and a content region 
 
 ## Example 1: Drupal index.php, meet index.html. Drupal hook_menu, meet Backbone Router.
 - explore Anatomy of a backbone app 
@@ -31,31 +30,16 @@ A JS library for building single page web apps... Or a sane way to keep your Jav
 
 
 ## CCK, meet Backbone Forms for Backbone Models
-Example 3: Declare a Model's schema, create associated edit and view pages.
+@todo Example 3: Declare a Model's schema, create associated edit and view pages.
 
 
 ## Views module, meet Backbone Collections
-Example 4: Create a Backbone Collection and its associated View page.
+@todo Example 4: Create a Backbone Collection and its associated View page.
 
 
 ## Review, lets introduce some more regions
-Example 5: ...
+@todo Example 5: ...
 
 ## Connect the Models to Drupal
-Example 6: Use the Services module? `hook_menu` entries work well. 
+@todo Example 6: Use the Services module? `hook_menu` entries work well. 
 
-
-## What about all these other JS frameworks?
-... Backbone.js is the backbone, you build the body parts that attach, then you direct the movements
-vs
-... Ember.js/Angular.js is a whole body, you direct the movements
-
-... Library
-vs
-... Framework
-
-Often referred to as how "opinionated" something is. Backbone's strength is in not being opinionated, Ember's strength is in being opinionated.
-
-Frameworks have steep learning curves (remember Drupal?) but promise productivity and best practices... Yet Google backed Angular, the leader in JS frontend frameworks, is still figuring it out. Angular 2 will be throwing out a lot of concepts and bringing in new ones, breaking compatibility with anything you write today. Your apps will be "born to die" in 12 months.  
-
-[The State of JavaScript (frameworks) in 2015 (don't use frameworks)](http://www.breck-mckye.com/blog/2014/12/the-state-of-javascript-in-2015/) 
