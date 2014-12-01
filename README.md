@@ -20,12 +20,12 @@ A JS library for building single page web apps... Or a sane way to keep your Jav
  - Trigger some routes on the command line
 
 ## Example 2: Drupal Blocks, template.php, and Templates, meet Backbone Views and Underscore templates
-- Lets make what is in the Routes into reusable components, Backbone Views
+- Example 2a: Lets make what is in the Routes into reusable components, Backbone Views
  - Move the Route body assignment into the render function that assigns to View.el, 
  - explore View.$el, 
  - assign View.el to the body from the Route
  - assign View.el to the body of another route  
-- Now use a template to make the output more dynamic
+- Example 2b: Now use a template to make the output more dynamic
  - Feed in the URL of the page into a template
  - print it in two Routes
 
@@ -38,9 +38,8 @@ Example 3: Declare a Model's schema, create associated edit and view pages.
 Example 4: Create a Backbone Collection and its associated View page.
 
 
-## Bonus Magic: Two-way data binding
-Example5: Change a Model in a Collection and watch the View update because it's listening for changes on the Model.
-
+## Review, lets introduce some more regions
+Example 5: ...
 
 ## Connect the Models to Drupal
 Example 6: Use the Services module? `hook_menu` entries work well. 
