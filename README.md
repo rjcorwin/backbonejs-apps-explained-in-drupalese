@@ -1,22 +1,23 @@
 # Backbone.js Apps Explained in Drupalese
 
 ## What is Backbone.js?
-A JS library for building single page web apps... Or a sane way to keep your Javascript code from turning into spaghetti. Included in Drupal 8 but I'm not sure what for other than the fact D8 is supposed to be Services oriented and Backbone is a great choice for building apps on top of a "headless Drupal". The [Tonight Show website](http://www.nbc.com/the-tonight-show) is a cool example.  
+A JS library for building single page web apps... Or a sane way to keep your Javascript code from turning into spaghetti. Included in Drupal 8 core for organizing some Javascript code in the theming layer but it also works great as a replacement for the theming layer when used in a Single-Page-Webapp in the frontend and "headless Drupal" in the backend. The [Tonight Show website](http://www.nbc.com/the-tonight-show) is a cool example of this.  
 
 - [Presentation on the Tonight Show project](https://austin2014.drupal.org/session/here%E2%80%99s-drupal-tonight-tonight-show-jimmy-fallon)
 - [Headless Drupal group](https://groups.drupal.org/headless-drupal)
 - [From August 2014, Josh Koenig's Working Code and Call to Action for a headless Drupal](https://www.getpantheon.com/blog/headless-drupal-demo-working-code-and-call-action)
 - [From Lullabot: Copelandia is a proof of concept for a COPE oriented Drupal site, to decouple the Drupal Backend from the Frontend.](https://github.com/Lullabot/copelandia)
-- [Recline.js: Backbone.js based framework for Apache Solr UI](http://okfnlabs.org/blog/2012/11/01/recline-js-search-demo.html), [Solarita.js is another example](https://github.com/jbarroso/solritajs)
+- Backbone works great for other things like Apache Solr: [Recline.js: Backbone.js based framework for Apache Solr UI](http://okfnlabs.org/blog/2012/11/01/recline-js-search-demo.html), [Solarita.js is another example](https://github.com/jbarroso/solritajs)
 
 
 ## Example 1: Drupal index.php, meet index.html. Drupal hook_menu, meet Backbone Router.
-- explore Anatomy of a backbone app 
- - The index.html to rule them all, like index.php
- - The start sequence
- - The global App object and its attached buddies
- - Explore the routes, explain the #route vs /route
- - Trigger some routes on the command line
+
+Explore the anatomy of a Backbone app 
+- The index.html to rule them all, like index.php
+- The start sequence
+- The global App object and its attached buddies
+- Explore the routes, explain the #route vs /route
+- Trigger some routes on the command line
 
 
 ## Example 2: Drupal Blocks, template.php, and Templates, meet Backbone Views and Underscore templates
