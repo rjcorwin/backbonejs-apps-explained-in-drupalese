@@ -35,7 +35,7 @@ Explore the anatomy of a Backbone app
 - Declare a Model's schema, create associated edit and view pages.
 
 
-## @todo Example 4: Views module, meet Backbone Collections
+## @todo Example 4: Queries in the Views module, meet Backbone Collections
 - Create a Backbone Collection and its associated View page.
 
 
