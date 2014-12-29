@@ -25,16 +25,14 @@ A JS library for building single page web apps... Or a sane way to keep your Jav
 ## Part 2: Drupal Blocks, template.php, and PHP Templates, meet Backbone Views and Underscore templates
 
 ### Example 1
-- Lets make what is in the Routes into reusable components, Backbone Views
+- Lets make what is in the Routes into reusable components using Backbone Views
  - Move the Route body assignment into the render function that assigns to View.el, 
  - explore View.$el, 
  - assign View.el to the body from the Route
  - assign View.el to the body of another route  
 
 ### Example 2
-- Now use a template to make the output more dynamic
- - Feed in the URL of the page into a template
- - print it in two Routes
+- Now use an underscore template
 
 
 ## @todo Example 3: CCK, meet Backbone Forms for Backbone Models
