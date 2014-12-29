@@ -12,7 +12,6 @@ $(function() {
 
     helloWorldTwo: function() {
       $('#region-body').html("This is Hello World 2.")
-       
     }
 
   }))

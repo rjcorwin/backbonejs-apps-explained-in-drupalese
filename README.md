@@ -10,23 +10,29 @@ A JS library for building single page web apps... Or a sane way to keep your Jav
 - Backbone works great for other things like Apache Solr: [Recline.js: Backbone.js based framework for Apache Solr UI](http://okfnlabs.org/blog/2012/11/01/recline-js-search-demo.html), [Solarita.js is another example](https://github.com/jbarroso/solritajs)
 
 
-## Example 1: Drupal index.php, meet index.html. Drupal hook_menu, meet Backbone Router.
+## Part 1: Drupal index.php, meet index.html. Drupal hook_menu, meet Backbone Router.
 
-Explore the anatomy of a Backbone app 
+### Example 1
 - The index.html to rule them all, like index.php
-- The start sequence
-- The global App object and its attached buddies
-- Explore the routes, explain the #route vs /route
-- Trigger some routes on the command line
+- The bootstrap sequence and the App object
+
+### Example 2
+- Explore Backbone Router, similar to hook_menu
+- Create two Routes
+- Notice `#` is similar to `?q=path`
 
 
-## Example 2: Drupal Blocks, template.php, and Templates, meet Backbone Views and Underscore templates
-- Example 2a: Lets make what is in the Routes into reusable components, Backbone Views
+## Part 2: Drupal Blocks, template.php, and PHP Templates, meet Backbone Views and Underscore templates
+
+### Example 1
+- Lets make what is in the Routes into reusable components, Backbone Views
  - Move the Route body assignment into the render function that assigns to View.el, 
  - explore View.$el, 
  - assign View.el to the body from the Route
  - assign View.el to the body of another route  
-- Example 2b: Now use a template to make the output more dynamic
+
+### Example 2
+- Now use a template to make the output more dynamic
  - Feed in the URL of the page into a template
  - print it in two Routes
 

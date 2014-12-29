@@ -1,9 +1,7 @@
 $(function() {
 
+  App = {
 
-  App = new (Backbone.View.extend({
-
-    // Backbone App structure
     Models: {},
     Views: {},
     Collections: {},
@@ -14,7 +12,6 @@ $(function() {
       Backbone.history.navigate('hello-world-1', {trigger: true})
     }
 
-  }))
-
+  }
 
 })
